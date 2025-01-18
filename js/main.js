@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Copy contract address
 function copyContract() {
-	navigator.clipboard.writeText('0xd6203889c22d9fe5e938a9200f50fdffe9dd8e02');
+	navigator.clipboard.writeText('0x47000ffd50eee8d10104b67ff381cd5621f4377a');
 	const btn = document.querySelector('.copy-btn');
 	btn.innerHTML = '<i class="fas fa-check"></i>';
 	
