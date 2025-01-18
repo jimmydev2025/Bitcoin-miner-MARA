@@ -22,7 +22,7 @@ class TokenDataManager {
 	async getMarketData() {
 		console.log('Fetching market data from CoinGecko...');
 		try {
-			const response = await fetch('https://api.coingecko.com/api/v3/coins/strategic-bitcoin-reserve');
+			const response = await fetch('https://api.coingecko.com/api/v3/coins/Bitcoin-Miner');
 			if (!response.ok) {
 				throw new Error('CoinGecko API error: ' + response.status);
 			}
